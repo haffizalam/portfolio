@@ -8,7 +8,7 @@ import msql from './msql.jpg';
 function Skill() {
 	return(
 		<>
-		<div className='container-fluid skill'>
+		<div className='container-fluid skill' id="skill">
 			<div className="row">
 				<div className='col-md-6 text-justify text-white'> 
 				<i className="fa fa-chevron-right mt-5" aria-hidden="true"></i>   Learning fullstack development with Python.<br/>
@@ -17,10 +17,10 @@ function Skill() {
           		<i className="fa fa-chevron-right mt-4" aria-hidden="true"></i>   Begginer in React js.<br/>
           		<i className="fa fa-chevron-right mt-4" aria-hidden="true"></i>   Know about MySQL.
           		</div>
-				<div className="col-md-6 text-justify">
-				<h5 className="text-white mt-5">skill in following technologies</h5>
+				<div className="col-md-6 text-justify mb-4">
+				<h5 className="text-white mt-4">skill in following technologies</h5>
 				<h4 className='mt-4 justify-content-center'>HTML<img src={html} width="50px" height="50px;"/>85%<div class="progress">
-              	<div className="progress-bar bg-success" role="progressbar" style={{width: "85%"}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+              	<div className="progress-bar bg-success" role="progressbar" style={{width: "90%"}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
          		</div></h4>
           		
 

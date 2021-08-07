@@ -8,7 +8,7 @@ import pic5 from './pic5.jpg'
 function Slider() {
 	return(
 		
-				<div className='container-fluid'>
+				<div className='container-fluid' id="service">
 				<div class="row">
            			<div className='col-md-12'>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

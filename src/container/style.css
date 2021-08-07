@@ -31,7 +31,7 @@
 .home{
 	
 
-	height: 90vh;
+	
 }
 .mt-5
 {
@@ -195,4 +195,17 @@
   .fa-twitter
   {
   	color:#1DA1F2;
+  }
+
+
+  .anim1a
+  {
+    animation: hello 1s .7s alternate;
+    transition: 1s;
+  }
+
+  @keyframes hello{
+    from{margin-left:0px;}
+    to{margin-left:200px;}
+    
   }

@@ -3,7 +3,7 @@ import React from 'react';
 function Service() {
 	return(
 		<div className="container-fluid">
-		<section className="service" id="service">
+		<section className="service">
     <div className="row mt-4">
         <div class="col-md-4">
           <div class="img-thumbnails">

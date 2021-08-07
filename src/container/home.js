@@ -32,11 +32,11 @@ function Home() {
 	
     <section id="home" className="home">
     <div className='row'>
-    <div className='col-md-6 p-5'>
+    <div className='col-md-6 p-3'>
 
     	        
     		      
-    		      <h2 className="mt-5">Hello!
+    		      <h2 className="mt-4 anim1a">Hello!
     		      I m Haffiz Alam</h2>
     		      <h1> web application developer.</h1>
     		      <input type="submit" name="" value="Hire" className="hire m-auto mt-5"/><br/>
@@ -57,7 +57,7 @@ function Home() {
 
         				
         			</div>
-        			<div class="col-md-6 m-auto mt-4 text-justify">
+        			<div className="col-md-6 m-auto mt-4 text-justify">
         				
         					 <span><h6>I am Haffiz Alam a fullstack developer</h6></span>
     			<p className='p-2 text-white'>Hello! "I am Haffiz Alam front-end developer. I have serious passion for UI effects, 
